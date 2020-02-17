@@ -730,7 +730,7 @@
                                                     <constraint firstAttribute="height" constant="58" id="2o6-l4-cmT"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
-                                                <state key="normal" title="İPTAL">
+                                                <state key="normal" title="CANCEL">
                                                     <color key="titleColor" red="0.81568627449999997" green="0.18039215689999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -749,7 +749,7 @@
                                                     <constraint firstAttribute="height" constant="58" id="9eg-lm-wCt"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
-                                                <state key="normal" title="TAMAM"/>
+                                                <state key="normal" title="OK"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="12"/>
