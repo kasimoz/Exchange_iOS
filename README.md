@@ -31,8 +31,8 @@ Exchange Rates, Exchange Converter
 
 ### App
 
-![](https://github.com/kasimoz/ExchangeiOS/blob/master/appdarkmode.gif)![](https://github.com/kasimoz/ExchangeiOS/blob/master/applightmode.gif)
+![](https://github.com/kasimoz/Exchange_iOS/blob/master/appdarkmode.gif)![](https://github.com/kasimoz/Exchange_iOS/blob/master/applightmode.gif)
 
 ### Widget
 
-![](https://github.com/kasimoz/ExchangeiOS/blob/master/screenshot_widget.png)![](https://github.com/kasimoz/ExchangeiOS/blob/master/screenshot_widget2.png)
+![](https://github.com/kasimoz/Exchange_iOS/blob/master/screenshot_widget.png)![](https://github.com/kasimoz/Exchange_iOS/blob/master/screenshot_widget2.png)
