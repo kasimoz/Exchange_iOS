@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AUD</key>
+	<dict>
+		<key>Name</key>
+		<string>Australian Dollar</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>australia</string>
+	</dict>
+	<key>BGN</key>
+	<dict>
+		<key>Name</key>
+		<string>Bulgarian Lev</string>
+		<key>Symbol</key>
+		<string>лв</string>
+		<key>Image</key>
+		<string>bulgaria</string>
+	</dict>
+	<key>BRL</key>
+	<dict>
+		<key>Name</key>
+		<string>Brazilian Real</string>
+		<key>Symbol</key>
+		<string>R$</string>
+		<key>Image</key>
+		<string>brazil</string>
+	</dict>
+	<key>CAD</key>
+	<dict>
+		<key>Name</key>
+		<string>Canadian Dollar</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>canada</string>
+	</dict>
+	<key>CHF</key>
+	<dict>
+		<key>Name</key>
+		<string>Swiss Franc</string>
+		<key>Symbol</key>
+		<string>₣</string>
+		<key>Image</key>
+		<string>switzerland</string>
+	</dict>
+	<key>CNY</key>
+	<dict>
+		<key>Name</key>
+		<string>Chinese Yuan</string>
+		<key>Symbol</key>
+		<string>¥</string>
+		<key>Image</key>
+		<string>china</string>
+	</dict>
+	<key>CZK</key>
+	<dict>
+		<key>Name</key>
+		<string>Czech Republic Koruna</string>
+		<key>Symbol</key>
+		<string>Kč</string>
+		<key>Image</key>
+		<string>czech-republic</string>
+	</dict>
+	<key>DKK</key>
+	<dict>
+		<key>Name</key>
+		<string>Danish Krone</string>
+		<key>Symbol</key>
+		<string>kr.</string>
+		<key>Image</key>
+		<string>denmark</string>
+	</dict>
+	<key>EUR</key>
+	<dict>
+		<key>Name</key>
+		<string>Euro</string>
+		<key>Symbol</key>
+		<string>€</string>
+		<key>Image</key>
+		<string>european</string>
+	</dict>
+	<key>GBP</key>
+	<dict>
+		<key>Name</key>
+		<string>British Pound Sterling</string>
+		<key>Symbol</key>
+		<string>£</string>
+		<key>Image</key>
+		<string>united-kingdom</string>
+	</dict>
+	<key>HKD</key>
+	<dict>
+		<key>Name</key>
+		<string>Hong Kong Dollar</string>
+		<key>Symbol</key>
+		<string>元</string>
+		<key>Image</key>
+		<string>hong-kong</string>
+	</dict>
+	<key>HRK</key>
+	<dict>
+		<key>Name</key>
+		<string>Croatian Kuna</string>
+		<key>Symbol</key>
+		<string>kn</string>
+		<key>Image</key>
+		<string>croatia</string>
+	</dict>
+	<key>HUF</key>
+	<dict>
+		<key>Name</key>
+		<string>Hungarian Forint</string>
+		<key>Symbol</key>
+		<string>Ft</string>
+		<key>Image</key>
+		<string>hungary</string>
+	</dict>
+	<key>IDR</key>
+	<dict>
+		<key>Name</key>
+		<string>Indonesian Rupiah</string>
+		<key>Symbol</key>
+		<string>Rp</string>
+		<key>Image</key>
+		<string>indonesia</string>
+	</dict>
+	<key>ILS</key>
+	<dict>
+		<key>Name</key>
+		<string>Israeli New Sheqel</string>
+		<key>Symbol</key>
+		<string>₪</string>
+		<key>Image</key>
+		<string>israel</string>
+	</dict>
+	<key>INR</key>
+	<dict>
+		<key>Name</key>
+		<string>Indian Rupee</string>
+		<key>Symbol</key>
+		<string>₹</string>
+		<key>Image</key>
+		<string>india</string>
+	</dict>
+	<key>ISK</key>
+	<dict>
+		<key>Name</key>
+		<string>Icelandic Króna</string>
+		<key>Symbol</key>
+		<string>kr</string>
+		<key>Image</key>
+		<string>iceland</string>
+	</dict>
+	<key>JPY</key>
+	<dict>
+		<key>Name</key>
+		<string>Japanese Yen</string>
+		<key>Symbol</key>
+		<string>¥</string>
+		<key>Image</key>
+		<string>japan</string>
+	</dict>
+	<key>KRW</key>
+	<dict>
+		<key>Name</key>
+		<string>South Korean Won</string>
+		<key>Symbol</key>
+		<string>₩</string>
+		<key>Image</key>
+		<string>south-korea</string>
+	</dict>
+	<key>MXN</key>
+	<dict>
+		<key>Name</key>
+		<string>Mexican Peso</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>mexico</string>
+	</dict>
+	<key>MYR</key>
+	<dict>
+		<key>Name</key>
+		<string>Malaysian Ringgit</string>
+		<key>Symbol</key>
+		<string>RM</string>
+		<key>Image</key>
+		<string>malaysia</string>
+	</dict>
+	<key>NOK</key>
+	<dict>
+		<key>Name</key>
+		<string>Norwegian Krone</string>
+		<key>Symbol</key>
+		<string>kr</string>
+		<key>Image</key>
+		<string>norway</string>
+	</dict>
+	<key>NZD</key>
+	<dict>
+		<key>Name</key>
+		<string>New Zealand Dollar</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>new-zealand</string>
+	</dict>
+	<key>PHP</key>
+	<dict>
+		<key>Name</key>
+		<string>Philippine Peso</string>
+		<key>Symbol</key>
+		<string>₱</string>
+		<key>Image</key>
+		<string>philippines</string>
+	</dict>
+	<key>PLN</key>
+	<dict>
+		<key>Name</key>
+		<string>Polish Zloty</string>
+		<key>Symbol</key>
+		<string>zł </string>
+		<key>Image</key>
+		<string>poland</string>
+	</dict>
+	<key>RON</key>
+	<dict>
+		<key>Name</key>
+		<string>Romanian Leu</string>
+		<key>Symbol</key>
+		<string>L</string>
+		<key>Image</key>
+		<string>romania</string>
+	</dict>
+	<key>RUB</key>
+	<dict>
+		<key>Name</key>
+		<string>Russian Ruble</string>
+		<key>Symbol</key>
+		<string>₽</string>
+		<key>Image</key>
+		<string>russia</string>
+	</dict>
+	<key>SEK</key>
+	<dict>
+		<key>Name</key>
+		<string>Swedish Krona</string>
+		<key>Symbol</key>
+		<string>kr</string>
+		<key>Image</key>
+		<string>sweden</string>
+	</dict>
+	<key>SGD</key>
+	<dict>
+		<key>Name</key>
+		<string>Singapore Dollar</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>singapore</string>
+	</dict>
+	<key>THB</key>
+	<dict>
+		<key>Name</key>
+		<string>Thai Baht</string>
+		<key>Symbol</key>
+		<string>฿</string>
+		<key>Image</key>
+		<string>thailand</string>
+	</dict>
+	<key>TRY</key>
+	<dict>
+		<key>Name</key>
+		<string>Turkish Lira</string>
+		<key>Symbol</key>
+		<string>₺</string>
+		<key>Image</key>
+		<string>turkey</string>
+	</dict>
+	<key>USD</key>
+	<dict>
+		<key>Name</key>
+		<string>United States Dollar</string>
+		<key>Symbol</key>
+		<string>$</string>
+		<key>Image</key>
+		<string>united-states</string>
+	</dict>
+	<key>ZAR</key>
+	<dict>
+		<key>Name</key>
+		<string>South African Rand</string>
+		<key>Symbol</key>
+		<string>R</string>
+		<key>Image</key>
+		<string>south-africa</string>
+	</dict>
+</dict>
+</plist>

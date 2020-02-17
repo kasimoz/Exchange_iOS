@@ -3,54 +3,182 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11CEDB98D4EFF8427DC1F04E /* Pods_ExchangeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243F7C68F8FF893255203CA3 /* Pods_ExchangeiOS.framework */; };
+		779CE1E71259F4B1D844E948 /* Pods_ExchangeiOS_latest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F02D62BDD664EE7D92EECEC /* Pods_ExchangeiOS_latest.framework */; };
+		E971BA5723ED835A00F2D295 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E971BA5623ED835A00F2D295 /* NotificationCenter.framework */; };
+		E971BA5A23ED835A00F2D295 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971BA5923ED835A00F2D295 /* TodayViewController.swift */; };
+		E971BA5D23ED835A00F2D295 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E971BA5B23ED835A00F2D295 /* MainInterface.storyboard */; };
+		E971BA6223ED835A00F2D295 /* Latest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E971BA5523ED835A00F2D295 /* Latest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E971BA6623ED899600F2D295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A97A623EAE5E2004579A5 /* Assets.xcassets */; };
+		E971BA6823ED8D3D00F2D295 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974E7E523EBFB4200F4349F /* Contants.swift */; };
+		E971BA6A23ED8D4D00F2D295 /* AlamofireClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAAD23ED2ECE005305D6 /* AlamofireClient.swift */; };
+		E971BA6C23ED900800F2D295 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971BA6B23ED900800F2D295 /* SettingsViewController.swift */; };
+		E973AAAE23ED2ECE005305D6 /* AlamofireClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAAD23ED2ECE005305D6 /* AlamofireClient.swift */; };
+		E973AAB023ED2FFB005305D6 /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAAF23ED2FFB005305D6 /* Latest.swift */; };
+		E973AAB223ED399C005305D6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAB123ED399C005305D6 /* History.swift */; };
+		E973AAB523ED5448005305D6 /* DateChartFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAB423ED5448005305D6 /* DateChartFormatter.swift */; };
+		E973AAB723ED548D005305D6 /* CubicLineSampleFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAB623ED548D005305D6 /* CubicLineSampleFillFormatter.swift */; };
+		E973AAB923ED5B64005305D6 /* LatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAB823ED5B64005305D6 /* LatestViewController.swift */; };
+		E973AABB23ED5BAF005305D6 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AABA23ED5BAF005305D6 /* CalculateViewController.swift */; };
+		E974E7DF23EBF21E00F4349F /* EditCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974E7DE23EBF21E00F4349F /* EditCurrencyViewController.swift */; };
+		E974E7E323EBF8CF00F4349F /* UiExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974E7E223EBF8CF00F4349F /* UiExtensions.swift */; };
+		E974E7E623EBFB4200F4349F /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974E7E523EBFB4200F4349F /* Contants.swift */; };
+		E974E7E823EC0F5700F4349F /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974E7E723EC0F5700F4349F /* CustomPickerView.swift */; };
 		E97A979C23EAE5E0004579A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A979B23EAE5E0004579A5 /* AppDelegate.swift */; };
 		E97A979E23EAE5E0004579A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A979D23EAE5E0004579A5 /* SceneDelegate.swift */; };
-		E97A97A023EAE5E0004579A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A979F23EAE5E0004579A5 /* FirstViewController.swift */; };
-		E97A97A223EAE5E0004579A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A97A123EAE5E0004579A5 /* SecondViewController.swift */; };
 		E97A97A523EAE5E0004579A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A97A323EAE5E0004579A5 /* Main.storyboard */; };
 		E97A97A723EAE5E2004579A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A97A623EAE5E2004579A5 /* Assets.xcassets */; };
 		E97A97AA23EAE5E2004579A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A97A823EAE5E2004579A5 /* LaunchScreen.storyboard */; };
+		E97A97B423EAE74D004579A5 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = E97A97B323EAE74D004579A5 /* Currencies.plist */; };
+		E985F78823F125D400A2FB91 /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973AAAF23ED2FFB005305D6 /* Latest.swift */; };
+		E985F78923F1286500A2FB91 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = E97A97B323EAE74D004579A5 /* Currencies.plist */; };
+		E9A5F5C523EDA12400319AA9 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5F5C423EDA12400319AA9 /* CommonExtensions.swift */; };
+		E9A5F5C623EDA2BC00319AA9 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5F5C423EDA12400319AA9 /* CommonExtensions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E971BA5F23ED835A00F2D295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97A979023EAE5E0004579A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E971BA5423ED835A00F2D295;
+			remoteInfo = latest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E971BA6123ED835A00F2D295 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E971BA6223ED835A00F2D295 /* Latest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		E97A979823EAE5E0004579A5 /* ExchangeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		243F7C68F8FF893255203CA3 /* Pods_ExchangeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F02D62BDD664EE7D92EECEC /* Pods_ExchangeiOS_latest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeiOS_latest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC79C0C4F4AFA34D7D5F27E /* Pods-ExchangeiOS-latest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeiOS-latest.debug.xcconfig"; path = "Target Support Files/Pods-ExchangeiOS-latest/Pods-ExchangeiOS-latest.debug.xcconfig"; sourceTree = "<group>"; };
+		93B51A327BF6ADF6D1373883 /* Pods-ExchangeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeiOS.release.xcconfig"; path = "Target Support Files/Pods-ExchangeiOS/Pods-ExchangeiOS.release.xcconfig"; sourceTree = "<group>"; };
+		9870342295F1189B14CD8606 /* Pods-ExchangeiOS-latest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeiOS-latest.release.xcconfig"; path = "Target Support Files/Pods-ExchangeiOS-latest/Pods-ExchangeiOS-latest.release.xcconfig"; sourceTree = "<group>"; };
+		E971BA5523ED835A00F2D295 /* Latest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Latest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E971BA5623ED835A00F2D295 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E971BA5923ED835A00F2D295 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E971BA5C23ED835A00F2D295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E971BA5E23ED835A00F2D295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E971BA6B23ED900800F2D295 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E973AAAD23ED2ECE005305D6 /* AlamofireClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireClient.swift; sourceTree = "<group>"; };
+		E973AAAF23ED2FFB005305D6 /* Latest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
+		E973AAB123ED399C005305D6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		E973AAB423ED5448005305D6 /* DateChartFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateChartFormatter.swift; sourceTree = "<group>"; };
+		E973AAB623ED548D005305D6 /* CubicLineSampleFillFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicLineSampleFillFormatter.swift; sourceTree = "<group>"; };
+		E973AAB823ED5B64005305D6 /* LatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestViewController.swift; sourceTree = "<group>"; };
+		E973AABA23ED5BAF005305D6 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		E973AACC23ED7362005305D6 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E974E7DE23EBF21E00F4349F /* EditCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCurrencyViewController.swift; sourceTree = "<group>"; };
+		E974E7E223EBF8CF00F4349F /* UiExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiExtensions.swift; sourceTree = "<group>"; };
+		E974E7E423EBFAF100F4349F /* ExchangeiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExchangeiOS.entitlements; sourceTree = "<group>"; };
+		E974E7E523EBFB4200F4349F /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		E974E7E723EC0F5700F4349F /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		E97A979823EAE5E0004579A5 /* Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A979B23EAE5E0004579A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97A979D23EAE5E0004579A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E97A979F23EAE5E0004579A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E97A97A123EAE5E0004579A5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E97A97A423EAE5E0004579A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E97A97A623EAE5E2004579A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E97A97A923EAE5E2004579A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E97A97AB23EAE5E2004579A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97A97B323EAE74D004579A5 /* Currencies.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Currencies.plist; sourceTree = "<group>"; };
+		E9A5F5C423EDA12400319AA9 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		E9A5F5C723EDA2F100319AA9 /* Latest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Latest.entitlements; sourceTree = "<group>"; };
+		F4DE040602B20A7EDBF1D786 /* Pods-ExchangeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeiOS.debug.xcconfig"; path = "Target Support Files/Pods-ExchangeiOS/Pods-ExchangeiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E971BA5223ED835A00F2D295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E971BA5723ED835A00F2D295 /* NotificationCenter.framework in Frameworks */,
+				779CE1E71259F4B1D844E948 /* Pods_ExchangeiOS_latest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E97A979523EAE5E0004579A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CEDB98D4EFF8427DC1F04E /* Pods_ExchangeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9547CE2D20A00614D25D3FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE040602B20A7EDBF1D786 /* Pods-ExchangeiOS.debug.xcconfig */,
+				93B51A327BF6ADF6D1373883 /* Pods-ExchangeiOS.release.xcconfig */,
+				7EC79C0C4F4AFA34D7D5F27E /* Pods-ExchangeiOS-latest.debug.xcconfig */,
+				9870342295F1189B14CD8606 /* Pods-ExchangeiOS-latest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E971BA5823ED835A00F2D295 /* latest */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5F5C723EDA2F100319AA9 /* Latest.entitlements */,
+				E971BA5923ED835A00F2D295 /* TodayViewController.swift */,
+				E971BA5B23ED835A00F2D295 /* MainInterface.storyboard */,
+				E971BA5E23ED835A00F2D295 /* Info.plist */,
+			);
+			path = latest;
+			sourceTree = "<group>";
+		};
+		E973AAB323ED5426005305D6 /* ChartFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				E973AAB423ED5448005305D6 /* DateChartFormatter.swift */,
+				E973AAB623ED548D005305D6 /* CubicLineSampleFillFormatter.swift */,
+			);
+			path = ChartFormatter;
+			sourceTree = "<group>";
+		};
+		E974E7E923EC352A00F4349F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E973AAAF23ED2FFB005305D6 /* Latest.swift */,
+				E973AAB123ED399C005305D6 /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E97A978F23EAE5E0004579A5 = {
 			isa = PBXGroup;
 			children = (
 				E97A979A23EAE5E0004579A5 /* ExchangeiOS */,
+				E971BA5823ED835A00F2D295 /* latest */,
 				E97A979923EAE5E0004579A5 /* Products */,
+				9547CE2D20A00614D25D3FEF /* Pods */,
+				EE4EEFE7AE09F6B0FD36E7A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E97A979923EAE5E0004579A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E97A979823EAE5E0004579A5 /* ExchangeiOS.app */,
+				E97A979823EAE5E0004579A5 /* Exchange.app */,
+				E971BA5523ED835A00F2D295 /* Latest.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +186,13 @@
 		E97A979A23EAE5E0004579A5 /* ExchangeiOS */ = {
 			isa = PBXGroup;
 			children = (
+				E974E7E423EBFAF100F4349F /* ExchangeiOS.entitlements */,
+				E973AAB323ED5426005305D6 /* ChartFormatter */,
+				E97A97B223EAE710004579A5 /* Utils */,
+				E974E7E923EC352A00F4349F /* Models */,
+				E97A97B123EAE6E6004579A5 /* ViewControllers */,
 				E97A979B23EAE5E0004579A5 /* AppDelegate.swift */,
 				E97A979D23EAE5E0004579A5 /* SceneDelegate.swift */,
-				E97A979F23EAE5E0004579A5 /* FirstViewController.swift */,
-				E97A97A123EAE5E0004579A5 /* SecondViewController.swift */,
 				E97A97A323EAE5E0004579A5 /* Main.storyboard */,
 				E97A97A623EAE5E2004579A5 /* Assets.xcassets */,
 				E97A97A823EAE5E2004579A5 /* LaunchScreen.storyboard */,
@@ -70,24 +201,81 @@
 			path = ExchangeiOS;
 			sourceTree = "<group>";
 		};
+		E97A97B123EAE6E6004579A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E974E7DE23EBF21E00F4349F /* EditCurrencyViewController.swift */,
+				E973AAB823ED5B64005305D6 /* LatestViewController.swift */,
+				E973AABA23ED5BAF005305D6 /* CalculateViewController.swift */,
+				E971BA6B23ED900800F2D295 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E97A97B223EAE710004579A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E97A97B323EAE74D004579A5 /* Currencies.plist */,
+				E973AAAD23ED2ECE005305D6 /* AlamofireClient.swift */,
+				E974E7E523EBFB4200F4349F /* Contants.swift */,
+				E974E7E223EBF8CF00F4349F /* UiExtensions.swift */,
+				E9A5F5C423EDA12400319AA9 /* CommonExtensions.swift */,
+				E974E7E723EC0F5700F4349F /* CustomPickerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EE4EEFE7AE09F6B0FD36E7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E973AACC23ED7362005305D6 /* AlamofireObjectMapper.framework */,
+				243F7C68F8FF893255203CA3 /* Pods_ExchangeiOS.framework */,
+				E971BA5623ED835A00F2D295 /* NotificationCenter.framework */,
+				5F02D62BDD664EE7D92EECEC /* Pods_ExchangeiOS_latest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E97A979723EAE5E0004579A5 /* ExchangeiOS */ = {
+		E971BA5423ED835A00F2D295 /* latest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E97A97AE23EAE5E2004579A5 /* Build configuration list for PBXNativeTarget "ExchangeiOS" */;
+			buildConfigurationList = E971BA6323ED835A00F2D295 /* Build configuration list for PBXNativeTarget "latest" */;
 			buildPhases = (
-				E97A979423EAE5E0004579A5 /* Sources */,
-				E97A979523EAE5E0004579A5 /* Frameworks */,
-				E97A979623EAE5E0004579A5 /* Resources */,
+				577916E90FF2AB952AE14639 /* [CP] Check Pods Manifest.lock */,
+				E971BA5123ED835A00F2D295 /* Sources */,
+				E971BA5223ED835A00F2D295 /* Frameworks */,
+				E971BA5323ED835A00F2D295 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = latest;
+			productName = latest;
+			productReference = E971BA5523ED835A00F2D295 /* Latest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E97A979723EAE5E0004579A5 /* ExchangeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97A97AE23EAE5E2004579A5 /* Build configuration list for PBXNativeTarget "ExchangeiOS" */;
+			buildPhases = (
+				02DA66165284F4E65934F9CC /* [CP] Check Pods Manifest.lock */,
+				E97A979423EAE5E0004579A5 /* Sources */,
+				E97A979523EAE5E0004579A5 /* Frameworks */,
+				E97A979623EAE5E0004579A5 /* Resources */,
+				6EAC8B63ABB51118339CF2FF /* [CP] Embed Pods Frameworks */,
+				E971BA6123ED835A00F2D295 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E971BA6023ED835A00F2D295 /* PBXTargetDependency */,
+			);
 			name = ExchangeiOS;
 			productName = ExchangeiOS;
-			productReference = E97A979823EAE5E0004579A5 /* ExchangeiOS.app */;
+			productReference = E97A979823EAE5E0004579A5 /* Exchange.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +288,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = KasimOzdemir;
 				TargetAttributes = {
+					E971BA5423ED835A00F2D295 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					E97A979723EAE5E0004579A5 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -119,38 +310,153 @@
 			projectRoot = "";
 			targets = (
 				E97A979723EAE5E0004579A5 /* ExchangeiOS */,
+				E971BA5423ED835A00F2D295 /* latest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E971BA5323ED835A00F2D295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E971BA6623ED899600F2D295 /* Assets.xcassets in Resources */,
+				E971BA5D23ED835A00F2D295 /* MainInterface.storyboard in Resources */,
+				E985F78923F1286500A2FB91 /* Currencies.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E97A979623EAE5E0004579A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E97A97AA23EAE5E2004579A5 /* LaunchScreen.storyboard in Resources */,
 				E97A97A723EAE5E2004579A5 /* Assets.xcassets in Resources */,
+				E97A97B423EAE74D004579A5 /* Currencies.plist in Resources */,
 				E97A97A523EAE5E0004579A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02DA66165284F4E65934F9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577916E90FF2AB952AE14639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeiOS-latest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAC8B63ABB51118339CF2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeiOS/Pods-ExchangeiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeiOS/Pods-ExchangeiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExchangeiOS/Pods-ExchangeiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E971BA5123ED835A00F2D295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E971BA5A23ED835A00F2D295 /* TodayViewController.swift in Sources */,
+				E971BA6A23ED8D4D00F2D295 /* AlamofireClient.swift in Sources */,
+				E9A5F5C623EDA2BC00319AA9 /* CommonExtensions.swift in Sources */,
+				E985F78823F125D400A2FB91 /* Latest.swift in Sources */,
+				E971BA6823ED8D3D00F2D295 /* Contants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E97A979423EAE5E0004579A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97A97A223EAE5E0004579A5 /* SecondViewController.swift in Sources */,
-				E97A97A023EAE5E0004579A5 /* FirstViewController.swift in Sources */,
+				E974E7DF23EBF21E00F4349F /* EditCurrencyViewController.swift in Sources */,
+				E973AAAE23ED2ECE005305D6 /* AlamofireClient.swift in Sources */,
+				E973AAB223ED399C005305D6 /* History.swift in Sources */,
+				E974E7E623EBFB4200F4349F /* Contants.swift in Sources */,
 				E97A979C23EAE5E0004579A5 /* AppDelegate.swift in Sources */,
+				E973AAB723ED548D005305D6 /* CubicLineSampleFillFormatter.swift in Sources */,
+				E973AABB23ED5BAF005305D6 /* CalculateViewController.swift in Sources */,
+				E974E7E823EC0F5700F4349F /* CustomPickerView.swift in Sources */,
+				E973AAB923ED5B64005305D6 /* LatestViewController.swift in Sources */,
+				E971BA6C23ED900800F2D295 /* SettingsViewController.swift in Sources */,
+				E9A5F5C523EDA12400319AA9 /* CommonExtensions.swift in Sources */,
 				E97A979E23EAE5E0004579A5 /* SceneDelegate.swift in Sources */,
+				E973AAB023ED2FFB005305D6 /* Latest.swift in Sources */,
+				E974E7E323EBF8CF00F4349F /* UiExtensions.swift in Sources */,
+				E973AAB523ED5448005305D6 /* DateChartFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E971BA6023ED835A00F2D295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E971BA5423ED835A00F2D295 /* latest */;
+			targetProxy = E971BA5F23ED835A00F2D295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		E971BA5B23ED835A00F2D295 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E971BA5C23ED835A00F2D295 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		E97A97A323EAE5E0004579A5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -170,6 +476,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E971BA6423ED835A00F2D295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC79C0C4F4AFA34D7D5F27E /* Pods-ExchangeiOS-latest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = latest/Latest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNJV59SWUT;
+				INFOPLIST_FILE = latest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasim.ExchangeiOS.latest;
+				PRODUCT_NAME = Latest;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E971BA6523ED835A00F2D295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9870342295F1189B14CD8606 /* Pods-ExchangeiOS-latest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = latest/Latest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNJV59SWUT;
+				INFOPLIST_FILE = latest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasim.ExchangeiOS.latest;
+				PRODUCT_NAME = Latest;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E97A97AC23EAE5E2004579A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,17 +636,21 @@
 		};
 		E97A97AF23EAE5E2004579A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DE040602B20A7EDBF1D786 /* Pods-ExchangeiOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExchangeiOS/ExchangeiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNJV59SWUT;
 				INFOPLIST_FILE = ExchangeiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasim.ExchangeiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Exchange;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +658,21 @@
 		};
 		E97A97B023EAE5E2004579A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B51A327BF6ADF6D1373883 /* Pods-ExchangeiOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExchangeiOS/ExchangeiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNJV59SWUT;
 				INFOPLIST_FILE = ExchangeiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasim.ExchangeiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Exchange;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E971BA6323ED835A00F2D295 /* Build configuration list for PBXNativeTarget "latest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E971BA6423ED835A00F2D295 /* Debug */,
+				E971BA6523ED835A00F2D295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E97A979323EAE5E0004579A5 /* Build configuration list for PBXProject "ExchangeiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
